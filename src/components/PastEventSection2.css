@@ -1,0 +1,13 @@
+@import url("../global-variables.css");
+
+.past-event-section-2 {
+  margin: 48px 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.past-event-section-2 .section-header {
+  font-family: var(--font-family);
+  color: var(--neutral-100);
+  font-size: 32px;
+}

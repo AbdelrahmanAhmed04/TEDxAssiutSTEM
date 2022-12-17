@@ -1,0 +1,22 @@
+@import url("../global-variables.css");
+
+.btn {
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 125%;
+  color: var(--neutral-100);
+  background-color: none;
+  padding: 8px;
+  border: 1px solid var(--main-red-200);
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: none;
+  transition: all 0.4s ease;
+}
+button:hover {
+  scale: 1.02;
+}

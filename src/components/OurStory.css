@@ -1,0 +1,63 @@
+@import url("../global-variables.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.our-story-section {
+  background-color: var(--main-red-300);
+  color: var(--neutral-100);
+  font-family: var(--font-family);
+  padding: 80px 128px;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 40px;
+}
+.our-story-section .img-container {
+  flex-grow: 100;
+  padding: 0;
+  margin: 0;
+  flex-basis: 0;
+  width: 10vw;
+}
+
+.our-story-section .card-text {
+  flex-grow: 100;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  gap: 32px;
+  justify-content: center;
+  height: 100%;
+}
+.our-story-section .card-text .title {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 8px;
+  border-bottom: 0.5px solid var(--neutral-100);
+}
+.our-story-section .card-text .content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.our-story-section .card-text .upcoming-button button {
+  font-size: 18px;
+  background-color: var(--neutral-100);
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  color: var(--neutral-900);
+}

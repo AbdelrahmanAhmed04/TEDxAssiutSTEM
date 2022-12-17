@@ -1,0 +1,87 @@
+@import url("../global-variables.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.past-event-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 60vh;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 16px;
+  text-decoration: none;
+  color: var(--neutral-100);
+
+  background-size: 100%;
+  width: 100%;
+  transition: 1s;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.past-event-card:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  -webkit-transition: all 0.5s ease-in-out;
+}
+.past-event-card .card-title {
+  font-weight: 700;
+  line-height: 56px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.past-event-card .card-subtitle {
+  font-size: 18px;
+  line-height: 0px;
+  padding-bottom: 32px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.past-event-card.card-description {
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .past-event-card .past-event-card {
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+    padding: 16px;
+  }
+  .past-event-card .card-title {
+    font-weight: 500;
+    line-height: 48px;
+    font-size: 18px;
+  }
+
+  .past-event-card .card-subtitle {
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: 300;
+  }
+  .past-event-card.card-description {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}

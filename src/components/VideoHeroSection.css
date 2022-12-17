@@ -1,0 +1,24 @@
+@import url("../global-variables.css");
+
+.video-hero-section {
+  width: 100%;
+  background-color: var(--red-900);
+}
+
+.video-hero-section video {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+.video-hero-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 10%);
+
+  z-index: 1;
+}

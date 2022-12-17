@@ -1,0 +1,64 @@
+@import url("../global-variables.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.past-event-card-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  border-radius: 8px;
+  align-items: center;
+  border: 1px solid var(--neutral-100);
+  font-family: var(--font-family);
+}
+.past-event-card-2 .card-img {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  flex-basis: 0;
+  background-size: cover;
+  flex-grow: 30;
+  flex-basis: 0;
+  border-radius: 8px;
+}
+.past-event-card-2 .card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  flex-grow: 50;
+  flex-basis: 0;
+  padding-right: 8px;
+}
+.past-event-card-2 .card-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+.past-event-card-2 .card-subtitle {
+  color: var(--main-red-300);
+  font-size: 18px;
+  padding-bottom: 8px;
+  margin-bottom: 48px;
+  border-bottom: 1px solid var(--neutral-100);
+}
+.past-event-card-2 .card-description {
+  font-size: 18px;
+  color: var(--neutral-100);
+  margin-bottom: 48px;
+  line-height: 36px;
+}
+.past-event-card-2 .btn {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--neutral-100);
+  color: black;
+  font-size: 18px;
+  border: none;
+}
+
+.past-event-card-2 .btn:hover {
+  color: black;
+}

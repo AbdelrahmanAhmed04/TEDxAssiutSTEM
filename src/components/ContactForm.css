@@ -1,0 +1,132 @@
+@import url("../global-variables.css");
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 128px;
+  align-items: center;
+  font-family: var(--font-family);
+  margin-bottom: 80px;
+}
+.header {
+  padding-top: 48px;
+}
+.header .title {
+  font-size: 40px;
+  color: var(--neutral-100);
+  text-align: center;
+  margin-bottom: 8px;
+}
+.header .subtitle {
+  font-size: 18px;
+  color: var(--neutral-100);
+  text-align: center;
+  margin-bottom: 48px;
+  font-weight: 300;
+}
+.contact-form {
+  display: flex;
+  flex-direction: row;
+}
+.contact-info {
+  background-color: var(--red-900);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  flex-basis: 0;
+  flex-grow: 3;
+  background-image: url(../assets/x-vector.png);
+  background-repeat: no-repeat;
+  background-position: -10% 120%;
+  background-size: 500px;
+}
+.top-contact {
+}
+.top-contact .title {
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--red-100);
+  margin-bottom: 8px;
+}
+.top-contact .subtitle {
+  font-size: 14px;
+  color: var(--red-100);
+  margin-bottom: 60px;
+  line-height: 24px;
+}
+.top-contact .contact-p {
+  font-size: 14;
+  color: var(--red-100);
+  margin-bottom: 48px;
+}
+.top-contact .contact-p .icon {
+  color: var(--red-100);
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.social-media .icon {
+}
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 48px;
+  background-color: var(--main-red-300);
+  flex-basis: 0;
+  flex-grow: 5;
+}
+.inquiry-form .title {
+  color: var(--neutral-200);
+  font-size: 32px;
+  font-weight: 500;
+}
+.inquiry-form form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin-top: 24px;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--red-100);
+}
+form input {
+  background-color: var(--red-900);
+  border-radius: 4px;
+  height: 32px;
+  border: none;
+}
+form textarea {
+  background-color: var(--red-900);
+  border-radius: 4px;
+  height: 320px;
+  border: none;
+  margin-bottom: 48px;
+}
+form button {
+  background-color: var(--red-100);
+  padding: 16px 12px;
+  font-size: 18px;
+  color: var(--neutral-900);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  border-radius: 4px;
+  border: none;
+}
+form button:hover {
+  scale: 1.02;
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}

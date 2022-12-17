@@ -1,0 +1,28 @@
+@import url("../global-variables.css");
+.about-section {
+  font-family: var(--font-family);
+  background-color: var(--red-900);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 48px 128px;
+}
+.about-section .paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--neutral-100);
+}
+.about-section .paragraph h3 {
+  font-size: 32px;
+  color: var(--neutral-100);
+  font-weight: 600;
+  padding-top: 48px;
+}
+.about-section .paragraph p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 28px;
+  color: var(--neutral-300);
+  font-weight: 400;
+}

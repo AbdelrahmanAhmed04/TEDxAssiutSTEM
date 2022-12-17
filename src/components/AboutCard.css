@@ -1,0 +1,242 @@
+@import url("../global-variables.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.about-card {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--red-900);
+  color: var(--neutral-100);
+  font-family: var(--font-family);
+  padding: 80px 128px;
+
+  width: 100%;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 40px;
+  min-height: 80vh;
+}
+.img-container {
+  position: relative;
+  flex-grow: 100;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  flex-basis: 0;
+  background-size: cover;
+}
+
+.card-text {
+  flex-grow: 100;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  gap: 32px;
+  justify-content: center;
+  height: 100%;
+}
+.card-text .title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-text .content {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.card-text .button button {
+  font-size: 18px;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-card {
+    flex-direction: row;
+
+    padding: 80px 96px;
+
+    gap: 40px;
+    min-height: 80vh;
+  }
+  .img-container {
+    flex-grow: 100;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    flex-basis: 0;
+    max-height: 50vh;
+  }
+
+  .card-text {
+    flex-grow: 100;
+    flex-basis: 0;
+    gap: 32px;
+    justify-content: center;
+    height: 100%;
+  }
+  .card-text .title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .card-text .content {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+
+  .card-text .button button {
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .about-card {
+    flex-direction: column;
+    min-height: 150vh;
+
+    padding: 80px 48px;
+    gap: 40px;
+  }
+  .img-container {
+    position: relative;
+    max-height: 1000px;
+    flex-grow: 150;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    flex-basis: 0;
+    height: 100%;
+  }
+
+  .card-text {
+    flex-grow: 100;
+    flex-basis: 0;
+    gap: 32px;
+    justify-content: center;
+    height: 100%;
+  }
+  .card-text .title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .card-text .content {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+
+  .card-text .button button {
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-card {
+    flex-direction: column;
+    min-height: 150vh;
+
+    padding: 80px 24px;
+    gap: 40px;
+  }
+  .img-container {
+    position: relative;
+
+    flex-grow: 100;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    flex-basis: 0;
+  }
+
+  .card-text {
+    flex-grow: 120;
+    flex-basis: 0;
+    gap: 32px;
+    justify-content: center;
+    height: 100%;
+  }
+  .card-text .title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .card-text .content {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+
+  .card-text .button button {
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-card {
+    flex-direction: column;
+    min-height: 150vh;
+
+    padding: 80px 12px;
+    gap: 40px;
+  }
+  .img-container {
+    position: relative;
+
+    flex-grow: 100;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    flex-basis: 0;
+  }
+
+  .card-text {
+    flex-grow: 120;
+    flex-basis: 0;
+    gap: 32px;
+    justify-content: center;
+    height: 100%;
+  }
+  .card-text .title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .card-text .content {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+
+  .card-text .button button {
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 12px;
+  }
+}

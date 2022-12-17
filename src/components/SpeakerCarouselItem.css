@@ -1,0 +1,10 @@
+@import url("../global-variables.css");
+.carsousel-item {
+}
+.carsousel-item .img {
+  height: 500px;
+}
+.carsousel-item img {
+  height: 500px;
+  width: 500px;
+}

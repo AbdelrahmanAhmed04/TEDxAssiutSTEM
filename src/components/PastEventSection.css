@@ -1,0 +1,61 @@
+@import url("../global-variables.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.past-event-section {
+  padding-left: 104px;
+  padding-right: 104px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  font-family: var(--font-family);
+}
+.section-header {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.carousel-container {
+  display: flex;
+}
+.carousel-item {
+  padding: 0px 24px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .past-event-section {
+    padding-left: 84px;
+    padding-right: 84px;
+  }
+  .section-header {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 48px;
+  }
+
+  .carousel-item {
+    padding: 0px 12px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .past-event-section {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .past-event-section {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .past-event-section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}

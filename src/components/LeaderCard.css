@@ -1,0 +1,45 @@
+@import url("../global-variables.css");
+
+a {
+  text-decoration: none;
+}
+.leader-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  font-family: var(--font-family);
+  color: var(--neutral-100);
+
+  border-radius: 8px;
+  padding-bottom: 48px;
+  transition: 0.3s;
+}
+.leader-card img {
+  width: 380px;
+  height: 350px;
+  object-fit: cover;
+  object-position: top center;
+  background-blend-mode: screen;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(90%);
+  transition: 0.3s;
+}
+.leader-card .name {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.leader-card .position {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+.leader-card img:hover {
+  scale: 1.02;
+}
