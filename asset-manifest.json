@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/TEDxAssiutSTEM/static/css/main.8c02a183.css",
+    "main.js": "/TEDxAssiutSTEM/static/js/main.042eee0a.js",
+    "static/js/787.fdf5e70b.chunk.js": "/TEDxAssiutSTEM/static/js/787.fdf5e70b.chunk.js",
+    "static/media/the-golden-record-card-img.jpg": "/TEDxAssiutSTEM/static/media/the-golden-record-card-img.e692a50fe9fa469a08cb.jpg",
+    "static/media/tedx-intro.mp4": "/TEDxAssiutSTEM/static/media/tedx-intro.fe42474ed299a0442676.mp4",
+    "static/media/assiut-collage-fair-img.jfif": "/TEDxAssiutSTEM/static/media/assiut-collage-fair-img.300829ea2a83cd2b3e92.jfif",
+    "static/media/hero-pic1.png": "/TEDxAssiutSTEM/static/media/hero-pic1.72d470bfd694cee3ac4c.png",
+    "static/media/hero-pic2.png": "/TEDxAssiutSTEM/static/media/hero-pic2.d4c43d41397687cacb1e.png",
+    "static/media/memories-of-the-future.jpeg": "/TEDxAssiutSTEM/static/media/memories-of-the-future.c64e84d12b6e79240e07.jpeg",
+    "static/media/assiut-collage-fair-card-img.jpg": "/TEDxAssiutSTEM/static/media/assiut-collage-fair-card-img.df3b76505a27a324bb2d.jpg",
+    "static/media/about-img.png": "/TEDxAssiutSTEM/static/media/about-img.d30843a149d4b3a05cb6.png",
+    "static/media/ahmed-mohamed.png": "/TEDxAssiutSTEM/static/media/ahmed-mohamed.f93ec3927bec7add459d.png",
+    "static/media/white-logo.png": "/TEDxAssiutSTEM/static/media/white-logo.93d3738e8b2df37cf6a1.png",
+    "static/media/capacitor-card-img.jpg": "/TEDxAssiutSTEM/static/media/capacitor-card-img.89153171f7a29cb8184b.jpg",
+    "static/media/golden-record-img.jpeg": "/TEDxAssiutSTEM/static/media/golden-record-img.28014c4056aa84ab678f.jpeg",
+    "static/media/capacitor-img.jpg": "/TEDxAssiutSTEM/static/media/capacitor-img.a6dfdbe597ffd494e293.jpg",
+    "static/media/revicons.eot": "/TEDxAssiutSTEM/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/TEDxAssiutSTEM/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/TEDxAssiutSTEM/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/TEDxAssiutSTEM/index.html",
+    "main.8c02a183.css.map": "/TEDxAssiutSTEM/static/css/main.8c02a183.css.map",
+    "main.042eee0a.js.map": "/TEDxAssiutSTEM/static/js/main.042eee0a.js.map",
+    "787.fdf5e70b.chunk.js.map": "/TEDxAssiutSTEM/static/js/787.fdf5e70b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c02a183.css",
+    "static/js/main.042eee0a.js"
+  ]
+}
