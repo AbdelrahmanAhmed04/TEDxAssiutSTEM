@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./HeroSection.css";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 import { style } from "@mui/system";
 
 function HeroSection(props) {
@@ -34,7 +34,7 @@ function HeroSection(props) {
         <span className="first-line">{props.firstLine}</span>
         <br />
         <span className="second-line">{props.secondLine}</span>
-        <Typed
+        <ReactTyped
           className="auto-typed"
           strings={props.autoType}
           typeSpeed={40}
