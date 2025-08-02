@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9902c7da.css",
+    "main.js": "/static/js/main.73ed6723.js",
+    "static/js/453.a0ca559d.chunk.js": "/static/js/453.a0ca559d.chunk.js",
+    "static/media/the-golden-record-card-img.jpg": "/static/media/the-golden-record-card-img.e692a50fe9fa469a08cb.jpg",
+    "static/media/tedx-intro.mp4": "/static/media/tedx-intro.fe42474ed299a0442676.mp4",
+    "static/media/assiut-collage-fair-img.jfif": "/static/media/assiut-collage-fair-img.300829ea2a83cd2b3e92.jfif",
+    "static/media/hero-pic1.png": "/static/media/hero-pic1.72d470bfd694cee3ac4c.png",
+    "static/media/hero-pic2.png": "/static/media/hero-pic2.d4c43d41397687cacb1e.png",
+    "static/media/memories-of-the-future.jpeg": "/static/media/memories-of-the-future.c64e84d12b6e79240e07.jpeg",
+    "static/media/assiut-collage-fair-card-img.jpg": "/static/media/assiut-collage-fair-card-img.df3b76505a27a324bb2d.jpg",
+    "static/media/about-img.png": "/static/media/about-img.d30843a149d4b3a05cb6.png",
+    "static/media/ahmed-mohamed.png": "/static/media/ahmed-mohamed.f93ec3927bec7add459d.png",
+    "static/media/white-logo.png": "/static/media/white-logo.93d3738e8b2df37cf6a1.png",
+    "static/media/capacitor-card-img.jpg": "/static/media/capacitor-card-img.89153171f7a29cb8184b.jpg",
+    "static/media/golden-record-img.jpeg": "/static/media/golden-record-img.28014c4056aa84ab678f.jpeg",
+    "static/media/capacitor-img.jpg": "/static/media/capacitor-img.a6dfdbe597ffd494e293.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.9902c7da.css.map": "/static/css/main.9902c7da.css.map",
+    "main.73ed6723.js.map": "/static/js/main.73ed6723.js.map",
+    "453.a0ca559d.chunk.js.map": "/static/js/453.a0ca559d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9902c7da.css",
+    "static/js/main.73ed6723.js"
+  ]
+}
