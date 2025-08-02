@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+// import { Link } from "react-router-dom";
 import "./OurStory.css";
 import aboutImg from "../assets/about-img.png";
 function OurStory() {
@@ -38,7 +38,7 @@ function OurStory() {
           </p>
         </div>
       </div>
-      <img src={aboutImg} className="img-container" />
+      <img src={aboutImg} alt=" " className="img-container" />
     </section>
   );
 }

@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+// import React, { useState } from "react";
+// import { Link } from "react-router-dom";
 import "./Footer.css";
 function Footer() {
   return (
@@ -9,17 +10,22 @@ function Footer() {
         maiores provident officiis natus repellat veniam. Id eveniet deserunt
         velit amet.
       </div>
-      <a href="#" className="button">
+      <a
+        href="https://facebook.com"
+        target="_blank"
+        rel="noreferrer"
+        className="button"
+      >
         <button>Get involved</button>
       </a>
       <div className="social-media">
-        <a href="#">
+        <a href="https://facebook.com" rel="noreferrer" target="_blank">
           <span className="icon">facebook</span>
         </a>
-        <a href="#">
+        <a href="https://facebook.com" rel="noreferrer" target="_blank">
           <span className="icon">linkedin</span>
         </a>
-        <a href="#">
+        <a href="https://facebook.com" rel="noreferrer" target="_blank">
           <span className="icon">twitter</span>
         </a>
       </div>

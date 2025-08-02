@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import "./HeroSection.css";
 import { ReactTyped } from "react-typed";
-import { style } from "@mui/system";
+// import { style } from "@mui/system";
 
 function HeroSection(props) {
   console.log(props.backgroundURL);

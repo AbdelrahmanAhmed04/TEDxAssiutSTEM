@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./UpcomingEventCard.css";
 import "./Navbar.css";
@@ -35,7 +35,7 @@ function UpcomingEventCard() {
             </Link>
           </div>
         </div>
-        <img src={memoriesOfTheFuture} className="img-container" />
+        <img src={memoriesOfTheFuture} alt=" " className="img-container" />
       </div>
     </section>
   );

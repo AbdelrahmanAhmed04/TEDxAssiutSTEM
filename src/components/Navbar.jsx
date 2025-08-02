@@ -21,8 +21,8 @@ function Navbar() {
   const [hamburger, setHamburger] = useState(false);
   const handleHumburger = () => setHamburger(!hamburger);
   const closeHumburger = () => setHamburger(false);
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(true);
+  // const [click, setClick] = useState(false);
+  // const handleClick = () => setClick(true);
   return (
     <nav>
       <Link to="../">

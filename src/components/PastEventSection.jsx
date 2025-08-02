@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+// import { Link } from "react-router-dom";
 import "./PastEventSection.css";
 import PastEventCard from "./PastEventCard";
 import Carousel from "react-multi-carousel";
@@ -38,7 +38,7 @@ function PastEventSection({ deviceType }) {
         infinite={true}
         autoPlay={deviceType !== "mobile" ? true : false}
         autoPlaySpeed={3000}
-        centerMode={deviceType == "mobile" ? true : false}
+        centerMode={deviceType === "mobile" ? true : false}
         keyBoardControl={true}
         containerClass="carousel-container"
         // deviceType={props.deviceType}

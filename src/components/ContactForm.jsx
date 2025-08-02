@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+// import React, { useState } from "react";
+// import { Link } from "react-router-dom";
 import "./ContactForm.css";
 
 function ContactForm() {
@@ -29,13 +30,13 @@ function ContactForm() {
             </p>
           </div>
           <div className="social-media">
-            <a href="#">
+            <a target="_blank" rel="noreferrer" href="https://facebook.com">
               <span className="icon">facebook</span>
             </a>
-            <a href="#">
+            <a target="_blank" rel="noreferrer" href="https://facebook.com">
               <span className="icon">linkedin</span>
             </a>
-            <a href="#">
+            <a target="_blank" rel="noreferrer" href="https://facebook.com">
               <span className="icon">twitter</span>
             </a>
           </div>

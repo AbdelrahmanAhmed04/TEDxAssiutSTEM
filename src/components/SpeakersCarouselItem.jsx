@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./SpeakerCarouselItem.css";
-import ahmedMohamed from "../assets/alumni-images/first-season/speakers/ahmed-mohamed.png";
+// import ahmedMohamed from "../assets/alumni-images/first-season/speakers/ahmed-mohamed.png";
 
 function SpeakersCarouselItem(props) {
   return (

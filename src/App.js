@@ -1,13 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import About from "./About";
 import Events from "./Events";
 import UpcomingEvent from "./UpcomingEvent";
 import Gallary from "./Gallary";
-import MemberPage from "./MemberPage";
-import PastEvent from "./PastEvent";
+// import MemberPage from "./MemberPage";
+// import PastEvent from "./PastEvent";
 import TicketsForm from "./TicketsForm";
 import Home from "./Home";
 import NavBar from "./components/Navbar.jsx";

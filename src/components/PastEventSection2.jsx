@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+// import { Link } from "react-router-dom";
 import "./PastEventSection2.css";
 
 import PastEventCard2 from "./PastEventCard2";
